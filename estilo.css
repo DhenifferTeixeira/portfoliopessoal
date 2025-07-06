@@ -1,0 +1,249 @@
+/* FORMATAÇÃO GENÉRICA - APLICADO A TODAS AS PÁGINAS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #005452;
+}
+
+/* FORMATAÇÃO DO CABEÇALHO - FIXO PARA TODAS AS PÁGINAS */
+
+#header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* FORMATAÇÃO DO TÍTULO - FIXO PARA TODAS AS PÁGINAS */
+
+h1{
+    text-align: center;
+    padding: 15px;
+    background: #93C2C4;
+    color: #000000;
+    font-size: 36px;
+    border-radius: 8px;
+}
+
+/* FORMATAÇÃO DO MENU DAS PÁGINAS - FIXO PARA TODAS AS PÁGINAS */
+
+#menu {
+    margin-top: 10px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* FORMATAÇÃO DOS SUBTITULOS DAS PÁGINAS - FIXO PARA TODAS AS PÁGINAS */
+
+h2{
+    text-align: center;
+    padding: 15px;
+    background: #93C2C4;
+    color: #000000;
+    font-size: 36px;
+    border-radius: 8px;
+}
+
+
+
+/*------------------------------------------------------------------*/
+
+/* FORMATAÇÃO DOS CONTEINERS - PÁGINA DE CONTATOS*/
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15 px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Lado esquerdo: imagem */
+.container-left {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+.container-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Lado direito: texto e formulário */
+.container-right {
+    flex: 2;
+    min-width: 300px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 28px;
+}
+
+/* Informações de contato */
+.info-contato p {
+    margin: 5px 0;
+    font-size: 28px;
+}
+
+/* Formulário */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+form button {
+    margin-top: 20px;
+    background-color: #005452;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------*/
+
+/* FORMATAÇÃO CONTAINER - PÁGINA HOME */
+
+.containerhome {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 15 px;
+}
+
+.containerhome {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Lado esquerdo: imagem */
+.containerhome-right {
+    flex: 1;
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+.containerhome-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Lado direito: texto e formulário */
+.containerhome-left {
+    flex: 2;
+    min-width: 400px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------------------------------------------*/
+
+/* FORMATAÇÃO DOS CONTEINERS - PÁGINA SOBRE MIM */
+
+.containersobremim{
+    margin: 20px auto;
+    color: #e0e0e0;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+.containersobremim h2 {
+    margin: 20px auto;
+}
+
+.containersobremim ul {
+    text-indent: 2em;
+    margin: 30px;
+}
+
+/*------------------------------------------------------------------*/
+
+/* FORMATAÇÃO DOS CONTEINERS - PÁGINA FORMAÇÃO*/
+
+.containerformacao{
+    margin: 20px auto;
+    color: #e0e0e0;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+.info-formacao{
+    text-align: justify;
+    padding: 15px;
+    background: #93C2C4;
+    color: #000000;
+    font-size: 36px;
+    border-radius: 8px;
+}
+
+/*------------------------------------------------------------------*/
+
+/* FORMATAÇÃO DOS CONTEINERS - PÁGINA PORTFOLIO*/
+
+
+
+
+
+/* FORMATAÇÃO DO RODAPÉ - FOOTER  - FIXO PARA TODAS AS PÁGINAS */
+
+#footer{
+    text-align: center;
+    padding: 15px;
+    background: #93C2C4;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 8px;
+}
